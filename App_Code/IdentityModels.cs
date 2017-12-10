@@ -3,11 +3,11 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
 using System.Web;
 using System;
-using RV;
+using VR;
 
-namespace RV
+namespace VR
 {
-    // You can add User data for the user by adding more properties to your User class, please visit http://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
+    // You can add User data for the user by adding more properties to your User class, please visit https://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
     public class ApplicationUser : IdentityUser
     {
     }
@@ -30,7 +30,7 @@ namespace RV
     }
 }
 
-namespace RV
+namespace VR
 {
     public static class IdentityHelper
     {

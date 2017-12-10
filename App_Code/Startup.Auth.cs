@@ -4,11 +4,11 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 
-namespace RV
+namespace VR
 {
     public partial class Startup {
 
-        // For more information on configuring authentication, please visit http://go.microsoft.com/fwlink/?LinkId=301883
+        // For more information on configuring authentication, please visit https://go.microsoft.com/fwlink/?LinkId=301883
         public void ConfigureAuth(IAppBuilder app)
         {
             // Enable the application to use a cookie to store information for the signed in user
