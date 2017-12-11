@@ -22,7 +22,7 @@ public partial class Work_CreateNewAppointment : System.Web.UI.Page
         
         con.Open();
         SqlCommand cmd = con.CreateCommand();
-        cmd.CommandText = "select * from AppointmentTable where Contact=764117";
+        cmd.CommandText = "select * from AppointmentTable where Time= '" + DropDownList5.SelectedItem + "'";
         cmd.ExecuteNonQuery();
 
         using (SqlDataReader reader = cmd.ExecuteReader())

@@ -53,10 +53,24 @@
     <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
 </p>
 <p>
-    &nbsp;</p>
+    <asp:Label ID="Label1" runat="server" ForeColor="Red" Text="The Appointments will be of one hour"></asp:Label>
+    </p>
 <p>
     Time&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:DropDownList ID="DropDownList5" runat="server">
+        <asp:ListItem>8:00AM-9:00AM</asp:ListItem>
+        <asp:ListItem>9:00AM-10:00AM</asp:ListItem>
+        <asp:ListItem>10:00AM-11:00AM</asp:ListItem>
+        <asp:ListItem>11:00AM-12:00PM</asp:ListItem>
+        <asp:ListItem>12:00PM-1:00PM</asp:ListItem>
+        <asp:ListItem>2:00PM-3:00PM</asp:ListItem>
+        <asp:ListItem>3:00PM-4:00PM</asp:ListItem>
+        <asp:ListItem>4:00PM-5:00PM</asp:ListItem>
+        <asp:ListItem>5:00PM-6:00PM</asp:ListItem>
+        <asp:ListItem>6:00PM-7:00PM</asp:ListItem>
+        <asp:ListItem>7:00PM-8:00PM</asp:ListItem>
+        <asp:ListItem>8:00PM-9:00PM</asp:ListItem>
+        <asp:ListItem>9:00PM-10:00PM</asp:ListItem>
     </asp:DropDownList>
 </p>
     <p>
@@ -66,7 +80,7 @@
 <p>
     &nbsp;</p>
 <p>
-    <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Button" />
+    <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" style="height: 26px" Text="Button" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <input id="Reset1" type="reset" value="reset" /></p>
 <p>
